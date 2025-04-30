@@ -1,0 +1,20 @@
+body {
+  padding: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    color: darkblue;
+  }
+}
